@@ -14,8 +14,6 @@ url: http://localhost:4000
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
   - title: 'About the Author'
     url: '/author_about'
   - title: 'About the Digital SEL'
