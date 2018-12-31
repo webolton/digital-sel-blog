@@ -17,8 +17,8 @@ menu:
   - title: 'Home'
     url: '/'
   - title: 'About the Author'
-    url: '/about'
-  - title: 'About the DSEL'
+    url: '/author_about'
+  - title: 'About the Digital SEL'
     url: '/digitalsel_about'
 
 # Owner/author information
@@ -31,7 +31,7 @@ owner:
   # Twitter for use in Twitter cards and follow button.
   twitter: william_ellet # if no twitter in this config, the twitter follow button will be removed
   # GitHub for use in follow button in author block.
-  github: william_ellet
+  github: webolton
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -75,7 +75,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: true
+  syntax_highlighter_opts: true
   input: GFM
   input:          GFM
   # https://github.com/jekyll/jekyll/pull/4090
@@ -93,12 +93,12 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    syntax_highlighter_line_numbers: nil
+    syntax_highlighter_line_numbers_start: 1
+    syntax_highlighter_tab_width: 4
+    syntax_highlighter_bold_every: 10
+    syntax_highlighter_css: class
 
 # Octopress
 # Default extensions
