@@ -120,9 +120,6 @@ body {
 			background-color: lighten($base-color,40);
 		}
 	}
-	.entry-reading-time {
-		float: right;
-	}
 }
 header .entry-meta {
 	display: none; // hide header meta on small screens
@@ -315,11 +312,11 @@ ul.social-buttons li:hover a{
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    color: #222;
-    background-color: #fec503;
+  color: #222;
+  background-color: #fec503;
 }
 .read-more-list {
-	border-top: solid 2px lighten($base-color,80);
+  border-top: solid 2px lighten($base-color,80);
 }
 .list-item {
 	width: 100%;
@@ -463,17 +460,17 @@ ul.social-buttons li a:active {
 // header
 //   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .entry-header {
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	height: 50px;
-	@media #{$medium} {
-		background-color: $header-color;
-		min-height: 300px;
-	}
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: 50px;
+  @media #{$medium} {
+    background: url('/images/header.png');
+    min-height: 250px;
+  }
 }
 .header-toggle{
 	display: block;
