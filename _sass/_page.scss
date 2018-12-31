@@ -1,22 +1,22 @@
 body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: $body-color;
-	overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: $body-color;
+  overflow-x: hidden;
 }
 
 // Main
 //   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .entry,
 .hentry {
-	@include clearfix;
-	h1, h2, h3, h4, h5, h6, p, li {
-		word-wrap: break-word;
-	}
+  @include clearfix;
+  h1, h2, h3, h4, h5, h6, p, li {
+    word-wrap: break-word;
+  }
 }
 .hentry-dark {
-	background-color: $header-color;
+  background-color: $header-color;
 }
 .entry-content {
 	@include font-size(16);
