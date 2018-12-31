@@ -7,7 +7,7 @@ body {
 }
 
 // Main
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .entry,
 .hentry {
 	@include clearfix;
@@ -89,7 +89,7 @@ body {
 }
 
 // Single Post and Page
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
@@ -343,7 +343,7 @@ ul.social-buttons li a:active {
 }
 
 // Post Index
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 #post-index {
 	#main {
 		margin: 40px 2px 20px 2px;
@@ -397,7 +397,7 @@ ul.social-buttons li a:active {
 }
 
 // Footer
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .footer-wrapper {
 	@include clearfix;
 	margin: 2em auto;
@@ -409,7 +409,7 @@ ul.social-buttons li a:active {
 }
 
 // Social Share
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .socialcount {
 	@include font-rem(16);
 	li {
@@ -424,14 +424,14 @@ ul.social-buttons li a:active {
 
 
 // Browser Upgrade
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .upgrade {
 	padding: 10px;
 	text-align: center;
 }
 
 // Google Search
-// --------------------------------------------------
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 #goog-fixurl {
 	ul {
 		list-style: none;
@@ -460,8 +460,8 @@ ul.social-buttons li a:active {
 	@extend .btn;
 }
 
-// Header
-// --------------------------------------------------
+// header
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .entry-header {
 	width: 100%;
 	overflow: hidden;
@@ -583,14 +583,14 @@ ul.social-buttons li a:active {
 }
 
 .header-item-title a {
-  color: #005794;
+  color: $dark-cerulean;
+  &:hover {
+    color: #0075c8;
+  }
 }
 
-.header-item-title a:hover {
-  color: #0075c8;
-}
-
-///sections
+// sections
+//   .・。.・゜✭・.・✫・゜・。..・。.・゜✭・.・✫・゜・。.
 .logo{
   width: $menu-height;
   height: $menu-height;
@@ -608,38 +608,38 @@ ul.social-buttons li a:active {
   }
 }
 .header-item-title{
-	float: left;
-	border-top-width: 0px;
-	height: 100%;
-	a.title {
-		font-size: 1.5rem;
-	    padding-left: 5px;
-		display: none;
-		vertical-align: middle;
-		height: $menu-height - 2;
-		@media #{$medium}{
-			display: table-cell;
-		}
-	}
+  float: left;
+  border-top-width: 0px;
+  height: 100%;
+  a.title {
+    font-size: 1.5rem;
+      padding-left: 5px;
+    display: none;
+    vertical-align: middle;
+    height: $menu-height - 2;
+    @media #{$medium}{
+      display: table-cell;
+    }
+  }
 }
 
 .header-item.active,
 .header-item:hover{
-  border-top-color: $header-margin;
+  border-top-color: $dark-cerulean;
 }
 
 .header-item:hover .header-submenu{
-	display: block;
-	position: absolute;
+  display: block;
+  position: absolute;
 }
 
 .header-submenu {
-	display: none;
-	border-top: 2px solid $header-margin;
-	width: 200px;
-	z-index: 100;
-	list-style-type: none;
-	transform: translateX(-25%);
+  display: none;
+  border-top: 2px solid $header-margin;
+  width: 200px;
+  z-index: 100;
+  list-style-type: none;
+  transform: translateX(-25%);
 }
 
 .sub-item {
